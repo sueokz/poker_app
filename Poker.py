@@ -47,12 +47,7 @@ class Application(tk.Frame):
         radio_2.pack()
         radio_3.pack()
         radio_4.pack()
-        radio_5.pack()
-
-         # 決定ボタン
-        decide_btn = tk.Button(self,text="選択",command=self.submit)
-        decide_btn.pack()
-        
+        radio_5.pack()        
 
         #キャンバス self忘れないように
         self.canvas = tk.Canvas(self, bg="white", width=287, height=290)
